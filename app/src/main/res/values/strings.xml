@@ -2,4 +2,38 @@
     <string name="app_name">NewsFeed</string>
     <string name="text_empty">No news found</string>
     <string name="no_internet">No internet connection</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">NewsFeed Settings</string>
+
+    <string name="settings_q_label">Query</string>
+    <string name="settings_q_key" translatable="false">q</string>
+    <string name="settings_q_default" translatable="false">royal wedding</string>
+
+    <string name="settings_apikey_label">Api Key</string>
+    <string name="settings_apikey_key" translatable="false">apikey</string>
+    <string name="settings_apikey_default" translatable="false">test</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="settings_type_label">Type</string>
+    <string name="settings_type_key" translatable="false">type</string>
+    <string name="settings_type_default" translatable="false">@string/settings_type_article_value</string>
+
+    <string name="settings_type_article_label">Article</string>
+    <string name="settings_type_article_value" translatable="false">article</string>
+
+    <string name="settings_type_liveblog_label">Liveblog</string>
+    <string name="settings_type_liveblog_value" translatable="false">liveblog</string>
 </resources>
